@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动漫资料库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-description {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.6;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        @media (max-width: 768px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>动漫资料库(点击跳转）</h1>
+        <div class="card-grid">
+		<!-- 仙逆 -->
+		<a href="https://pan.quark.cn/s/7a618b183650" class="card" target="_blank">
+			<img src="img/XianNi.jpg" alt="仙逆" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">仙逆</h2>
+				<p class="card-description">《仙逆》讲述了一个平凡少年王林，因机缘巧合踏入修仙之路，历经磨难，最终逆天改命的故事。他凭借坚韧的意志和智慧，一步步走向巅峰，成为一代仙尊。</p>
+			</div>
+		</a>
+
+		<!-- 斗破苍穹 -->
+		<a href="https://pan.quark.cn/s/ba5f1c8f27e9" class="card" target="_blank">
+			<img src="img/dp.jpg" alt="斗破苍穹" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">斗破苍穹</h2>
+				<p class="card-description">《斗破苍穹》讲述了少年萧炎从天才沦为废柴，再到逆袭成为斗气大陆巅峰强者的故事。他凭借毅力和智慧，一步步打破命运的枷锁，创造属于自己的传奇。</p>
+			</div>
+		</a>
+
+		<!-- 凡人修仙传 -->
+		<a href="https://pan.quark.cn/s/d93802a30474" class="card" target="_blank">
+			<img src="img/fr.jpg" alt="凡人修仙传" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">凡人修仙传</h2>
+				<p class="card-description">《凡人修仙传》讲述了凡人韩立凭借机缘和智慧，一步步踏上修仙之路的故事。他在残酷的修仙世界中谨慎前行，最终成为一代大能。</p>
+			</div>
+		</a>
+
+		<!-- 吞噬星空 -->
+		<a href="https://pan.quark.cn/s/92108f4faccd" class="card" target="_blank">
+			<img src="img/TunShiXingKong.jpg" alt="吞噬星空" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">吞噬星空</h2>
+				<p class="card-description">《吞噬星空》讲述了地球经历一场大灾难后引发了各物种的变异，优胜劣汰，主角罗峰得到陨墨星主人传承，成为地球三强者之一，与星空吞噬巨兽一战后失去肉身，夺舍成为星空吞噬兽，在体内世界育出人类分身，之后迈出地球，走向宇宙。</p>
+			</div>
+		</a>
+
+		<!-- 遮天 -->
+		<a href="https://pan.quark.cn/s/897232da8dcd" class="card" target="_blank">
+			<img src="img/ZheTian.jpg" alt="遮天" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">遮天</h2>
+				<p class="card-description">冰冷与黑暗并存的宇宙深处，九具庞大的龙尸拉着一口青铜古棺，亘古长存。这是太空探测器在枯寂的宇宙中捕捉到的一幅极其震撼的画面。九龙拉棺，究竟是回到了上古，还是来到了星空的彼岸？一个浩大的仙侠世界，光怪陆离，神秘无尽。热血似火山沸腾，激情若瀚海汹涌，欲望如深渊无止境……登天路，踏歌行，弹指遮天。</p>
+			</div>
+		</a>
+
+		<!-- 完美世界 -->
+		<a href="https://pan.quark.cn/s/81ab7e28c678" class="card" target="_blank">
+			<img src="img/wm.jpg" alt="完美世界" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">完美世界</h2>
+				<p class="card-description">《完美世界》讲述了少年石昊从大荒中崛起，最终成为独断万古的荒天帝的故事。他凭借无敌的天赋和坚韧的意志，一步步走向巅峰，创造属于自己的完美世界。</p>
+			</div>
+		</a>
+
+		<!-- 沧元图 -->
+		<a href="https://pan.quark.cn/s/548d52941c15" class="card" target="_blank">
+			<img src="img/cyt.jpg" alt="沧元图" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">沧元图</h2>
+				<p class="card-description">《沧元图》讲述了少年孟川在沧元界中修炼成长的故事。他凭借强大的天赋和不屈的意志，最终成为一代强者，守护自己的家园。</p>
+			</div>
+		</a>
+
+		<!-- 牧神记 -->
+		<a href="https://pan.quark.cn/s/57cc5d8d6c09" class="card" target="_blank">
+			<img src="img/MuShenJi.jpg" alt="牧神记" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">牧神记</h2>
+				<p class="card-description">《牧神记》讲述了少年秦牧在神秘的大墟中成长，逐渐揭开自己身世之谜的故事。他凭借过人的天赋和勇气，与各路强者争锋，最终成为一代牧神，守护天下苍生。</p>
+			</div>
+		</a>
+
+		<!-- 仙武传 -->
+		<a href="https://pan.quark.cn/s/311a4b5b52f2" class="card" target="_blank">
+			<img src="img/XianWuChuan.png" alt="仙武传" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">仙武传</h2>
+				<p class="card-description">《仙武传》讲述了一个少年从平凡走向巅峰的传奇故事。他凭借不屈的意志和无尽的潜力，在仙武世界中闯荡，最终成为一代仙武至尊，傲视群雄。</p>
+			</div>
+		</a>
+
+
+
+
+		<!-- 一念永恒 -->
+		<a href="https://pan.quark.cn/s/da05ef8c7581" class="card" target="_blank">
+			<img src="img/YiNian.jpg" alt="一念永恒" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">一念永恒</h2>
+				<p class="card-description">一念成沧海，一念化桑田。一念斩千魔，一念诛万仙。唯我念……永恒</p>
+			</div>
+		</a>
+
+		<!-- 神印王座 -->
+		<a href="https://pan.quark.cn/s/996bf5734367" class="card" target="_blank">
+			<img src="img/shen.jpg" alt="神印王座" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">神印王座</h2>
+				<p class="card-description">《神印王座》讲述了少年龙皓晨在圣魔大陆上成长为一代强者的故事。他凭借坚定的信念和强大的天赋，最终登上神印王座，成为守护人类的英雄。</p>
+			</div>
+		</a>
+
+		<!-- 星辰变 -->
+		<a href="https://pan.quark.cn/s/97521837355c" class="card" target="_blank">
+			<img src="img/Xing.jpg" alt="星辰变" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">星辰变</h2>
+				<p class="card-description">《星辰变》讲述了少年秦羽在修炼之路上不断突破自我，最终成为宇宙至强者的故事。他凭借毅力和智慧，一步步揭开宇宙的奥秘，创造属于自己的传奇。</p>
+			</div>
+		</a>
+
+		<!-- 少年歌行 -->
+		<a href="https://pan.quark.cn/s/55ec64650377" class="card" target="_blank">
+			<img src="img/shao.png" alt="少年歌行" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">少年歌行</h2>
+				<p class="card-description">《少年歌行》讲述了一群少年在江湖中历练成长的故事。他们凭借友情和勇气，面对各种挑战，最终在纷乱的江湖中谱写属于自己的传奇。</p>
+			</div>
+		</a>
+
+		<!-- 师兄啊师兄 -->
+		<a href="https://pan.quark.cn/s/75ea06c146e9" class="card" target="_blank">
+			<img src="img/sx.jpg" alt="师兄啊师兄" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">师兄啊师兄</h2>
+				<p class="card-description">《师兄啊师兄》是一部轻松搞笑的修仙故事，讲述了主角与师兄们之间的日常趣事。他们在修炼的同时，也经历了各种啼笑皆非的冒险。</p>
+			</div>
+		</a>
+
+		<!-- 绝世唐门 -->
+		<a href="https://pan.quark.cn/s/ffd3d6751cfe" class="card" target="_blank">
+			<img src="img/dldl2.png" alt="绝世唐门" class="card-image">
+			<div class="card-content">
+				<h2 class="card-title">绝世唐门</h2>
+				<p class="card-description">《绝世唐门》讲述了霍雨浩在唐门中修炼成长的故事。他凭借强大的魂导器天赋和坚韧的意志，最终成为一代强者，守护唐门的荣耀。</p>
+			</div>
+		</a>
+        </div>
+    </div>
+</body>
+</html>
